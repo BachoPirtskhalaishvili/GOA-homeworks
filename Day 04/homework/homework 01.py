@@ -23,5 +23,5 @@ learning = "programming"
 hobby = "fishing"
 driveing_liceense = False
 favorite_game = "Read Dead Redemption 2 "
- 
-print(name + " " + surname + " " + learning + " " + hobby + " " + driveing_liceense + " " + favorite_game)
+
+print(name + " " + surname + " " + str(age) + " " + str(hight) + " " + str(grade) + " " + str(weight) + " " + learning + " " + hobby + " " + str(driveing_liceense) + " " + favorite_game)
