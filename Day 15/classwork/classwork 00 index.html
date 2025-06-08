@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>რეგისტრაცია</title>
+</head>
+<body>
+
+<!-- სარეგისტრაციო ფორმა რომელიც გააგზავნის მონაცემებს -->
+<form action="/submit_registration" method="post">
+    <!-- ქვეყნის არჩევის dropdown menu -->
+    <select id="country" name="country">
+        <option value="georgia">საქართველო</option>
+        <option value="usa">ამერიკა</option>
+        <option value="germany">გერმანია</option>
+    </select>
+    <br>
+    <!--შეიყვანე სახელი-->
+    <label for="firstName">სახელი:</label>
+    <input type="text" id="firstName" name="first_name" required>
+    <br>
+    
+    <!-- შეიყვანე  გვარი -->
+    <label for="lastName">გვარი:</label>
+    <input type="text" id="lastName" name="last_name" required>
+    <!-- name="last_name" გამოიყენება გვარის ინფორმაციის შესანახად -->
+    <br>
+    <!-- ღილაკი -->
+    <button type="submit">დადასტურება</button>
+    
+</form>
+
+</body>
+</html>

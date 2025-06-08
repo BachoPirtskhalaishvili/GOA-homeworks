@@ -1,0 +1,31 @@
+<!--სარეგისტრაციო ფორმა-->
+<form action="/register" method="post">
+  
+  <!--input ველი სახელისთვის. name="firstname" ნიშნავს, რომ სერვერზე 
+  ეს მნიშვნელობა გაიგზავნება როგორც firstname=მომხმარებლის_სახელი.-->
+
+  <label for="firstname">სახელი:</label>
+  <input type="text" id="firstname" name="firstname" required>
+  <br><br>
+  
+  <!--input ველი გვარისთვის. name="lastname" უზრუნველყოფს მონაცემების 
+  სწორად კლასიფიკაციას სერვერზე.-->
+
+  <label for="lastname">გვარი:</label>
+  <input type="text" id="lastname" name="lastname" required>
+  <br><br>
+  
+  <!-- drop-down სია ქვეყნის ასარჩევად.-->
+  <label for="country">ქვეყანა:</label>
+  <select id="country" name="country" required>
+    <option value="georgia">საქართველო</option>
+    <option value="usa">აშშ</option>
+    <option value="germany">გერმანია</option>
+    <option value="france">საფრანგეთი</option>
+  </select>
+  <br><br>
+
+  <!--submit ღილაკი, რომელიც აგზავნის ფორმის მონაცემებს სერვერზე.-->
+  <input type="submit" value="დადასტურება">
+
+</form>

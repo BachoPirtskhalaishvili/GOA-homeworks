@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Me</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="register.html">Register</a>
+  </nav>
+
+  <h1>რეგისტრაციის ფორმა</h1>
+  <form>
+    <label for="fname">სახელი:</label>
+    <input type="text" id="fname" name="fname" placeholder="შეიყვანეთ სახელი" required><br><br>
+
+    <label for="lname">გვარი:</label>
+    <input type="text" id="lname" name="lname" placeholder="შეიყვანეთ გვარი" required><br><br>
+
+    <label for="email">ელფოსტა:</label>
+    <input type="email" id="email" name="email" placeholder="შეიყვანეთ ელფოსტა" required><br><br>
+
+    <label for="password">პაროლი:</label>
+    <input type="password" id="password" name="password" placeholder="შეიყვანეთ პაროლი" required><br><br>
+
+    <label for="age">ასაკი:</label>
+    <input type="number" id="age" name="age" placeholder="შეიყვანეთ ასაკი"><br><br>
+
+    <label for="country">ქვეყანა:</label>
+    <select id="country" name="country">
+      <option value="georgia">საქართველო</option>
+      <option value="usa">აშშ</option>
+      <option value="uk">დიდი ბრიტანეთი</option>
+      <option value="germany">გერმანია</option>
+    </select><br><br>
+
+    <label for="color">საყვარელი ფერი:</label>
+    <input type="text" id="color" name="color" placeholder="საყვარელი ფერი" required><br><br>
+
+    <label for="phone">ტელეფონის ნომერი:</label>
+    <input type="tel" id="phone" name="phone" placeholder="+995 5XX XXX XXX"><br><br>
+
+    <button type="submit">დადასტურება</button>
+  </form>
+</body>
+</html>
